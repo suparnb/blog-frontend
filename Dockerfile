@@ -15,3 +15,6 @@ RUN npm install react-scripts@1.1.1 -g --silent
 
 # start app
 CMD ["npm", "start"]
+
+# expose port
+EXPOSE 3000
