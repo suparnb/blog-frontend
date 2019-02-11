@@ -1,0 +1,93 @@
+.blog-list, .blog-Item, .create-blog {
+	margin-top:100px;
+}
+
+.blog-list h4 {
+	margin-bottom: 25px;
+}
+
+.list-ul
+{
+padding-top:100px;
+list-style-type:none;
+padding:0;
+margin:0;
+width: 100%;
+}
+
+.list-ul li{
+padding:8px 16px;
+border-bottom:1px solid #ddd;
+}
+
+.list-ul li:last-child{
+/*border-bottom:none*/
+}
+
+.list-shadow {
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.list-rounded {
+	border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+
+.list-bar{
+	width:100%;
+	overflow:hidden
+}
+
+.list-bar-item{
+	padding: 8px 16px;
+    float: left;
+    width: 100%;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.t-large {
+    font-size: 18px!important;
+    font-weight:bold;
+}
+
+.t-faint {
+	font-style: italic;
+	color: slategray;
+}
+
+.t-medium {
+	color: gray;
+	font-size: 15px!important;
+}
+
+.t-small {
+	font-size: 10px!important;
+}
+
+.jumbotron {
+	padding: 3em 2em;
+	background-color: whitesmoke;
+}
+
+.blog-item-title, .create-blog-title {
+	color: #18BC9C;
+}
+
+.av-circle {
+	border-radius:50%;
+	width:85px;
+}
+.av-hide-small{
+	display:none!important;
+}
+
+.displayNone {
+	display:None;
+}
+
+.displayBlock {
+	display:block;
+}
